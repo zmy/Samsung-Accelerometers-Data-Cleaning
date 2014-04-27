@@ -8,4 +8,4 @@ The code [run_analysis.R](https://github.com/zmy/Samsung-Accelerometers-Data-Ana
  4. Read list **UCI HAR Dataset/train/y_train.txt** into variable ```y_train``` and **UCI HAR Dataset/test/y_test.txt** into ```y_test```. Then combine them into ```y``` - activity lables corresponding to ```X```.
  5. Change ```y``` into strings according to **UCI HAR Dataset/activity_labels.txt** and then assign it as a new column of ```X``` named ```labels```.
  6. Read list **UCI HAR Dataset/train/subject_train.txt** into variable ```subject_train``` and **UCI HAR Dataset/test/subject_test.txt** into ```subject_test```. Then combine them and assign as a new column of ```X``` as ```subject```
- 7. Using ```melt``` and ```dcast``` method in library ```reshape2```, calculate the average of each feature of each ```labels```` and ```subject```.
+ 7. Using ```melt``` and ```dcast``` method in library ```reshape2```, calculate the average of each feature of each ```labels``` and ```subject```.
